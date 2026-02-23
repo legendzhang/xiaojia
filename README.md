@@ -4,6 +4,7 @@
 
 ## 2026-02-23
 
+- 当前使用 Ubuntu 25，中文输入法虽笨但可用。安装了 Chrome 浏览器，用 OpenClaw 插件控制浏览器，但效果很差
 - Ubuntu 25 是最适合作为 OpenClaw 服务端的版本，在虚拟机中作为客户端使用体验也很好
 - Ubuntu 24.03 可以安装 OpenClaw，但界面和使用的中文支持不太好
 - 在 Windows 下用 PowerShell 管理员模式运行 OpenClaw 官网命令，安装成功。认为 PowerShell 是可用的安装方式
