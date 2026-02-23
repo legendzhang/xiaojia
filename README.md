@@ -4,6 +4,7 @@
 
 ## 2026-02-23
 
+- Ubuntu 24.03 可以安装 OpenClaw，但界面和使用的中文支持不太好
 - 在 Windows 下用 PowerShell 管理员模式运行 OpenClaw 官网命令，安装成功。认为 PowerShell 是可用的安装方式
 - 在 Windows 下通过命令行安装 OpenClaw，也失败了
 - 原本倾向于用国产操作系统（统信、优麒麟等），在虚拟机中尝试安装。但通过命令方式安装 OpenClaw 时遇到各种问题
