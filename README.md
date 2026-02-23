@@ -4,6 +4,7 @@
 
 ## 2026-02-23
 
+- 尝试让 OpenClaw 创建独立的 Web Socket Gateway，OpenClaw 自己做了但无法连接，出现各种错误，反复修正也未成功。最终认为 OpenClaw 代码开发能力较差，无法真正应用
 - 尝试让 OpenClaw 把 Web Chat 功能从 Gateway 服务提取出来做成独立应用，但 OpenClaw + MiniMax 2.1 失败了，系统提示太复杂无法提取，尝试多次后仍未实现
 - 尝试用 OpenClaw 控制浏览器搜索机票，发现只能识别 HTML DOM 对象，无法正确操作。比如能添加出发地但无法添加返回地址。最终可能需要借助图像识别功能才能实现可靠的浏览器控制
 - 当前使用 MiniMax 2.1 模型（NVIDIA 提供），速度还可以。Kimi 2.5 上下文字数限制较短，有时会超限。MiniMax 2.1 用起来感觉可以
