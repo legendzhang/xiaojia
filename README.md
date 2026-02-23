@@ -4,6 +4,8 @@
 
 ## 2026-02-23
 
+- OpenCode 开发时经常出错，后来要求它先自己测试调试后再反馈，不再让用户检测。OpenCode 确实能根据要求尽量避免错误，体验上能感觉到进步
+- OpenCode 可以使用其他模型，但用默认模型效果和效率都不错。让 OpenCode 开发 Web Chat 接 OpenClaw 客户端，实现了。虽然有报错，但因为 OpenCode 和 OpenClaw 在同一服务器上，可以直接查看后台日志调试，最终完整实现了 Web Chat
 - OpenCode 作为 Claude Code 的平替，在 Ubuntu 25 上非常好用，安装方便。打开 Web 端直接在上面开发，觉得很不错。之前因为 Claude Code 需要付费或复杂配置而没有尝试
 - 尝试让 OpenClaw 创建独立的 Web Socket Gateway，OpenClaw 自己做了但无法连接，出现各种错误，反复修正也未成功。最终认为 OpenClaw 代码开发能力较差，无法真正应用
 - 尝试让 OpenClaw 把 Web Chat 功能从 Gateway 服务提取出来做成独立应用，但 OpenClaw + MiniMax 2.1 失败了，系统提示太复杂无法提取，尝试多次后仍未实现
